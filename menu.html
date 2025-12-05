@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    ```
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold" href="#home">Delicious</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Taste the Best Food</h1>
+            <p class="lead mb-4">Fresh • Delicious • Premium Quality</p>
+            <a href="#menu" class="btn btn-primary btn-lg px-4">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Our Menu</h2>
+            <div class="row g-4 justify-content-center">
+
+                <!-- Grilled Chicken -->
+                <div class="col-md-3">
+                    <div class="card menu-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Grilled Chicken" />
+                        <div class="card-body">
+                            <h5 class="card-title">Grilled Chicken</h5>
+                            <p class="card-text">Juicy grilled chicken with spices.</p>
+                            <span class="price">$14.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Italian Pasta -->
+                <div class="col-md-3">
+                    <div class="card menu-card shadow-sm">
+                        <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fdishingouthealth.com%2Fpasta-e-ceci%2F&ved=0CBUQjRxqFwoTCJD93auhppEDFQAAAAAdAAAAABAI&opi=89978449"
+                            class="card-img-top" alt="Italian Pasta" />
+                        <div class="card-body">
+                            <h5 class="card-title">Italian Pasta</h5>
+                            <p class="card-text">Authentic Italian pasta with parmesan.</p>
+                            <span class="price">$12.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Burger -->
+                <div class="col-md-3">
+                    <div class="card menu-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Special Burger" />
+                        <div class="card-body">
+                            <h5 class="card-title">Special Burger</h5>
+                            <p class="card-text">Fresh beef with melted cheese.</p>
+                            <span class="price">$10.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fresh Salad -->
+                <div class="col-md-3">
+                    <div class="card menu-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Fresh Salad" />
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Salad</h5>
+                            <p class="card-text">Crisp greens with house dressing.</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">About Us</h2>
+                    <p>We serve the best food made with high-quality ingredients. Enjoy a premium dining experience in a
+                        cozy atmosphere.</p>
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=500&q=80"
+                        class="img-fluid rounded-4 mt-3" alt="Restaurant interior" />
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1600891964599-93b1b5698d05?auto=format&fit=crop&w=500&q=80"
+                        class="img-fluid rounded-4 shadow" alt="Restaurant food" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Contact Us</h2>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Name" required />
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control" placeholder="Email" required />
+                </div>
+                <div class="col-8">
+                    <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p class="mb-0">© 2025 Delicious Restaurant</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    ```
+
+</body>
+
+</html>
