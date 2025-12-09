@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Delicious — Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="menu.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Delicious</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter:invert(1)"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+        <div class="hero-inner container">
+            <h1>Taste the Best — Delicious Restaurant</h1>
+            <p class="lead">Classic recipes • Fresh ingredients • Warm atmosphere</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#menu" class="btn btn-accent">Explore Menu</a>
+                <a href="#contact" class="btn btn-outline-wood">Reserve a Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MENU (3 dishes) -->
+    <section id="menu" class="menu-section bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Our Signature Dishes</h2>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Dish 1: Grilled Chicken -->
+                <div class="col-md-4 d-flex">
+                    <div class="card menu-card w-100">
+                        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=80"
+                            class="card-img-top" alt="Grilled Chicken">
+                        <div class="card-body text-start">
+                            <h5 class="card-title">Grilled Chicken</h5>
+                            <p class="card-text">Herb-marinated chicken, char-grilled and served with seasonal
+                                vegetables.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$14.99</span>
+                                <a class="btn btn-sm btn-outline-wood" href="#contact">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dish 2: Italian Pasta -->
+                <div class="col-md-4 d-flex">
+                    <div class="card menu-card w-100">
+                        <img src="https://images.unsplash.com/photo-1589308078059-7fa1827e8be0?auto=format&fit=crop&w=900&q=80"
+                            class="card-img-top" alt="Italian Pasta">
+                        <div class="card-body text-start">
+                            <h5 class="card-title">Italian Pasta</h5>
+                            <p class="card-text">House-made pasta with rich tomato sauce, garlic and parmesan.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$12.99</span>
+                                <a class="btn btn-sm btn-outline-wood" href="#contact">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dish 3: Special Burger -->
+                <div class="col-md-4 d-flex">
+                    <div class="card menu-card w-100">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80"
+                            class="card-img-top" alt="Special Burger">
+                        <div class="card-body text-start">
+                            <h5 class="card-title">Special Burger</h5>
+                            <p class="card-text">100% beef patty, melted cheddar, caramelized onions and our secret
+                                sauce.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$10.99</span>
+                                <a class="btn btn-sm btn-outline-wood" href="#contact">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /row -->
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <h3 class="section-title">About Delicious</h3>
+                    <p class="lead">Delicious is a family-run restaurant blending classic recipes with modern touches.
+                        Our wood-fired techniques and seasonal ingredients create dishes full of flavor and warmth.</p>
+                    <p>Open daily for lunch and dinner. We source local produce and prepare every dish with care —
+                        welcome to a pleasant dining experience.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-images">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=80"
+                            alt="Interior">
+                        <img src="https://images.unsplash.com/photo-1600891964599-93b1b5698d05?auto=format&fit=crop&w=900&q=80"
+                            alt="Dish closeup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h3 class="section-title text-center">Contact & Reservations</h3>
+                    <form class="row g-3" id="contactForm">
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="email" name="email" placeholder="Email address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="tel" name="phone" placeholder="Phone (optional)">
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-select" name="purpose">
+                                <option value="" selected>Choose for</option>
+                                <option>Table Reservation</option>
+                                <option>Takeaway</option>
+                                <option>Catering Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" name="message" rows="4"
+                                placeholder="Message / Reservation details"></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-accent px-4" type="submit">Send Request</button>
+                            <button class="btn btn-outline-wood ms-2" type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="mb-2 mb-md-0">
+                <strong>Delicious Restaurant</strong> — © <span id="year"></span>
+            </div>
+            <div class="socials">
+                <a href="#" title="Facebook" aria-label="facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 4.99 3.66 9.13 8.44 9.93v-7.03H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.62.77-1.62 1.56v1.87h2.76l-.44 2.9h-2.32V22c4.78-.8 8.44-4.94 8.44-9.93z"
+                            fill="currentColor" />
+                    </svg>
+                </a>
+                <a href="#" title="Instagram" aria-label="instagram">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.2A4.8 4.8 0 1016.8 13 4.8 4.8 0 0012 8.2zm6.4-3.6a1.12 1.12 0 11-1.12 1.12A1.12 1.12 0 0118.4 4.6z"
+                            fill="currentColor" />
+                    </svg>
+                </a>
+                <a href="#" title="Twitter" aria-label="twitter">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M22 5.92c-.64.28-1.33.46-2.05.55a3.6 3.6 0 001.6-1.98 7.2 7.2 0 01-2.29.88 3.6 3.6 0 00-6.14 3.28A10.22 10.22 0 013 4.9a3.6 3.6 0 001.12 4.8 3.55 3.55 0 01-1.63-.45v.05a3.6 3.6 0 002.88 3.52 3.6 3.6 0 01-1.62.06 3.6 3.6 0 003.36 2.5A7.22 7.22 0 012 19.54 10.17 10.17 0 008.29 21c6.5 0 10.05-5.38 10.05-10.05l-.01-.46A7.1 7.1 0 0022 5.92z"
+                            fill="currentColor" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // set year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // simple form handling (demo)
+        const form = document.getElementById('contactForm');
+        if (form) {
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Request sent! (demo) — check console for details.');
+                console.log('Form data demo:', Object.fromEntries(new FormData(this).entries()));
+                this.reset();
+            });
+        }
+    </script>
+</body>
+
+</html>
